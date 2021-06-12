@@ -1,0 +1,9 @@
+tensorflow-cpu==2.4.1
+tweepy
+pickle-mixin
+streamlit
+pandas
+plotly
+h5py==2.10.0 
+requests==2.24.0
+streamlit_lottie==0.0.2
