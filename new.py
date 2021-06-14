@@ -2,12 +2,12 @@
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
-model = load_model('plswork.h5')
+model = load_model('best_model.h5')
 import pickle
 max_words = 5000
 max_len=50
 tokenizer = Tokenizer(num_words=max_words, lower=True, split=' ')
-with open('tokenizer.pickle', 'rb') as handle:
+with open('preprocess.pickle', 'rb') as handle:
     tokenizer = pickle.load(handle)
 # tokenizer.fit_on_texts(text)
 # tokenizer = Tokenizer(num_words=max_words, lower=True, split=' ')
@@ -30,4 +30,7 @@ def predict_class(text):
     print(model.predict(xt))
     # Print the predicted sentiment
     k= sentiment_classes[yt[0]]
+    # print(k)
     return k
+
+#predict_class(['"I hate when I have to call and wake people up'])
