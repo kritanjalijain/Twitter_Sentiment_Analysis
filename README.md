@@ -2,7 +2,7 @@
 An approach to automatically sort the sentiment behind social media conversations.
 
 ### Web App Link
-[Sententia](https://sententia-twitter.herokuapp.com/)
+[Sententia](https://share.streamlit.io/kritanjalijain/twitter_sentiment_analysis/main/app.py)
 
 ### Link to kaggle notebook
 
