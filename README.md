@@ -2,10 +2,11 @@
 An approach to automatically sort the sentiment behind social media conversations.
 
 ### Web App Link
-https://sententia-twitter.herokuapp.com/
+[Sententia](https://sententia-twitter.herokuapp.com/)
 
 ### Link to kaggle notebook
-https://www.kaggle.com/kritanjalijain/twitter-sentiment-analysis-lstm
+
+[Twitter Sentiment Analysis LSTM](https://www.kaggle.com/kritanjalijain/twitter-sentiment-analysis-lstm-2)
 
 Contains :
 
