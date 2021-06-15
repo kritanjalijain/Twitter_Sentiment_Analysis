@@ -9,12 +9,16 @@ import pandas as pd
 import plotly.express as px
 from streamlit_lottie import st_lottie
 import requests
+from dotenv import load_dotenv
 
-consumerKey = ''
-consumerSecret = ''
-accessToken = ''
-accessTokenSecret = ''
+import os
 
+load_dotenv()
+
+consumerKey = os.getenv("consumer_key")
+consumerSecret = os.getenv("consumer_key_secret")
+accessToken = os.getenv("access_token")
+accessTokenSecret = os.getenv("access_token_secret")
 #Create the authentication object
 authenticate = tw.OAuthHandler(consumerKey, consumerSecret) 
     
