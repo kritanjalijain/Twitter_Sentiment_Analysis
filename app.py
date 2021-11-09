@@ -69,7 +69,7 @@ def app():
 
 		
 	raw_text = st.text_input("Enter the twitter handle of the personality (without @) or enter the hashtag (without #)")
-	need_help = st.beta_expander('Need help? 👉')
+	need_help = st.expander('Need help? 👉')
 	with need_help:
 		st.markdown("Having trouble finding the Twitter profile or Hashtag? Head to the [Twitter website](https://twitter.com/home) and click on the search bar in the top right corner.")
 
